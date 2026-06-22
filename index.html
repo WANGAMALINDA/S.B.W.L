@@ -349,13 +349,13 @@
     <section class="container hero">
         <div class="grid-2">
             <div class="hero-text">
-                <p class="mono">/ DROP 01  /  EST. 2025</p>
+                <p class="mono">/ DROP 01  /  EST. 2019</p>
                 <h1>IT'S NOT JUST<br>A <span style="color: var(--red);">BRAND</span><br>IT'S A <span style="color: var(--pink);">LIFESTYLE</span><span class="red-dot">.</span></h1>
                 <p>Built on identity, belonging, and authenticity. This is more than clothing — it is a reflection of those who move with purpose.</p>
                 <a href="#shop" class="btn-white" style="background: black; color:white; border:none;">EXPLORE PIECES →</a>
             </div>
             <div class="hero-image-side" style="text-align: right;">
-                <img src="Assets/Logo-removebg.png" alt="S.B.W.L Logo" class="hero-logo-main">
+                <img src="pics/logo.png" alt="S.B.W.L Logo" class="hero-logo-main">
             </div>
         </div>
     </section>
@@ -396,7 +396,7 @@
             <div class="product-card">
                 <div class="product-img-wrapper"><img src="pics/2.jpg"></div>
                 <div style="padding: 0 20px; text-align: center;">
-                    <h3 class="heavy-title" style="font-size: 16px;">Limitted Addtions T-Shirts</h3>
+                    <h3 class="heavy-title" style="font-size: 16px;">Limitted Addtions</h3>
                     <p class="mono" style="color:var(--red);">R500.00</p>
                     <button class="add-to-cart-btn" onclick="openAcidWashCollection()">SHOP LIMITTED ADDITIONS</button>
                 </div>
@@ -503,14 +503,14 @@
             </div>
         </div>
         
-        <p class="mono" style="font-size: 10px; margin-top: 40px;">© 2025 ALL RIGHTS RESERVED</p>
+        <p class="mono" style="font-size: 10px; margin-top: 40px;">© 2019 ALL RIGHTS RESERVED</p>
     </footer>
 
     <!-- Collection Modals (Acid, Cotton, Hoodie, Cap, Socks) -->
     <div id="acidwash-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:5000; overflow-y:auto;">
         <div style="padding:40px; max-width:1400px; margin:40PX auto;">
             <span style="cursor:pointer; font-size:28px; color:white; float:right;" onclick="closeAcidWashCollection()">✕</span>
-            <h2 style="color:white; font-size:48px; margin-bottom:40px; font-family:'Archivo Black', sans-serif;">ACID WASH COLLECTION</h2>
+            <h2 style="color:white; font-size:48px; margin-bottom:40px; font-family:'Archivo Black', sans-serif;">LIMITTED COLLECTION</h2>
             <div class="product-grid" id="acidwash-grid"></div>
         </div>
     </div>
@@ -518,7 +518,7 @@
     <div id="cotton-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:5000; overflow-y:auto;">
         <div style="padding:40px; max-width:1400px; margin:40px auto;">
             <span style="cursor:pointer; font-size:28px; color:white; float:right;" onclick="closeCottonCollection()">✕</span>
-            <h2 style="color:white; font-size:48px; margin-bottom:40px; font-family:'Archivo Black', sans-serif;">COTTON COLLECTION</h2>
+            <h2 style="color:white; font-size:48px; margin-bottom:40px; font-family:'Archivo Black', sans-serif;">T-SHIRTS COLLECTION</h2>
             <div class="product-grid" id="cotton-grid"></div>
         </div>
     </div>
@@ -619,12 +619,12 @@ let nextItemId = 0;
 
         // Collection Data
         const acidwashItems = [
-            { name: 'Acid Wash V2 Cream', image: 'Assets/Acid wash/t7 v3 green.jpeg', price: 500 },
-            { name: 'Acid Wash V5 Khaki', image: 'Assets/Acid wash/v5 khaki.jpeg', price: 500 },
-            { name: 'Acid Wash V3 Black', image: 'Assets/Acid wash/t7 v3 black.jpeg', price: 500 },
-            { name: 'Acid Wash V3 Red', image: 'Assets/Acid wash/t7 v3 red.jpeg', price: 500 },
-            { name: 'Acid Wash V3 Cream', image: 'Assets/Acid wash/t7 v3 cream.jpeg', price: 500 },
-            { name: 'Acid Wash V3 Grey', image: 'Assets/Acid wash/v4 grey.jpeg', price: 500 },
+            { name: 'Limitted Addition V2 Cream', image: 'Assets/Acid wash/t7 v3 green.jpeg', price: 500 },
+            { name: 'Limitted Addition V5 Khaki', image: 'Assets/Acid wash/v5 khaki.jpeg', price: 500 },
+            { name: 'Limitted Addition V3 Black', image: 'Assets/Acid wash/t7 v3 black.jpeg', price: 500 },
+            { name: 'Limitted Addition V3 Red', image: 'Assets/Acid wash/t7 v3 red.jpeg', price: 500 },
+            { name: 'Limitted Addition V3 Cream', image: 'Assets/Acid wash/t7 v3 cream.jpeg', price: 500 },
+            { name: 'Limitted Addition V3 Grey', image: 'Assets/Acid wash/v4 grey.jpeg', price: 500 },
         ];
 
         const cottonItems = [
